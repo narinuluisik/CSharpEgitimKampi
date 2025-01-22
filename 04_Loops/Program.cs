@@ -10,152 +10,137 @@ namespace _04_Loops
     {
         static void Main(string[] args)
         {
-            #region For
-
-            //For(x, y, z)
-            // x: start point
-            // y: end point
-            // z: increase - decrease
+            #region For Döngüsü
 
             //int i;
 
-            //for (i = 1; i <= 5; i++)
+            //for (i = 0; i <= 5; i++)
             //{
-            //	Console.WriteLine("C# Training Camp");
+            //    Console.WriteLine("C# Eğitim Kampı");
             //}
 
             //for (int i = 1; i <= 20; i++)
-            //{
-            //	Console.WriteLine(i);
+            //{ 
+            //    Console.WriteLine(i);
             //}
 
-            //for (int i = 3; i < 50; i += 3)
+            //for (int i = 3; i <= 50; i += 3)
             //{
-            //	Console.WriteLine(i);
+            //    Console.WriteLine(i);
             //}
 
-            //Console.WriteLine("Please enter the quantity you want to display on the screen");
+            //Console.WriteLine("Lütfen ekrana yazolmasını istediğiniz adedei giriniz: ");
             //int finishValue = int.Parse(Console.ReadLine());
 
-            //for (int i = 0; i < finishValue; i++)
+            //for(int i = 0; i < finishValue; i++)
             //{
-            //	Console.WriteLine("Omedetou Gozaimasu");
+            //    Console.WriteLine("Yaşasın Cumhuriyet");
             //}
 
             #endregion
 
-            #region Decision structures with For loop
+            #region For Döngüsü ile Karar Yapilari
 
-            //for (int i = 1; i <= 100; i++)
+            //for (int i = 0; i <= 100; i++)
             //{
-            //	if (i % 5 == 0)
-            //	{
-            //		Console.WriteLine(i);
-            //	}
+            //    if (i % 5 == 0)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
             //}
 
-            //int totalValue = 0;
-
+            //int totalvalue = 0;
             //for (int i = 1; i <= 10; i++)
             //{
-            //	totalValue += i;
+            //    totalvalue += i;
             //}
 
-            //Console.WriteLine(totalValue);
+            //Console.WriteLine(totalvalue);
 
             //int totalValue = 0;
 
-            //for (int i = 1; i < 20; i++)
+            //for (int i = 1; i < 20; i++) 
             //{
-            //	if (i % 2  == 0)
-            //	{
-            //		totalValue += i;
-            //		Console.WriteLine(i);
-            //	}
+            //    if (i % 2 == 0) 
+            //    { 
+            //        totalValue += i;
+            //        Console.WriteLine(i);
+            //    }   
             //}
 
-            //Console.WriteLine("---------");
+            //Console.WriteLine("-------------");
             //Console.WriteLine(totalValue);
 
             //int count = 0;
-
-            //for (int i = 1; i <= 60; i++)
+            //for (int i = 1; i <= 50; i++)
             //{
-            //	if (i % 7 == 0)
-            //	{
-            //		count++;
-            //	}
+            //    if (i % 7 == 0)
+            //    {
+            //        count++;
+            //    }
             //}
 
             //Console.WriteLine(count);
 
             //int bacterium = 1;
-
             //for (int i = 1; i <= 24; i++)
             //{
-            //	bacterium *= 2;
-            //	Console.WriteLine(i + ". Saat Sonunda: " + bacterium);
+            //    bacterium *= 2;
+            //    Console.WriteLine(i + ",Saat Sonunda: " + bacterium);
             //}
+
 
             #endregion
 
-            #region While
-
-            // While (Condisiton)
-            // {
-            // Operations
-            // }
+            #region While Döngüsü
 
             //int i = 1;
 
             //while (i <= 10)
             //{
-            //	Console.WriteLine("Hi Loops");
-            //	i++;
+            //    Console.WriteLine("Merhaba Döngülerr");
+            //    i++;
             //}
 
             //int i = 1;
-
             //while (i <= 10)
             //{
-            //	if (i % 3 == 0)
-            //	{
-            //		Console.WriteLine(i);
-            //	}
-            //	i++;
+            //    if (i % 3 == 0)
+            //    {
+            //        Console.WriteLine(i);
+            //        i++;
+            //    }
             //}
 
-            //int i = 1;
-            //int sum = 0;
-
-            //while (i <= 10)
+            //int i = 1, sum = 0;
+            //while (i <= 10) 
             //{
-            //	sum += i;
-            //	i++;
+            //    sum += i;
+            //    i++;
             //}
-
             //Console.WriteLine(sum);
+
+
+
 
             #endregion
 
-            #region Example
+            #region Örnek Soru
 
-            // Write a code that calculates the sum of the digits of a 3-digit number entered from the keyboard.
+            //int number, total = 0, i, figure;
 
-            //Console.WriteLine("Please enter the number");
-            //int number = int.Parse(Console.ReadLine());
-            //int ones, tens, hundreds;
-            //int sum;
+            //Console.Write("Lütfen 3 basamaklı sayı giriniz: ");
+            //number = int.Parse(Console.ReadLine());
 
-            //ones = number % 10;
-            //tens = (number % 100) / 10;
-            //hundreds = number / 100;
+            //for (i = 0; i < 3; i++)
+            //{
+            //    figure = number % 10;
+            //    number = number - figure;
+            //    number = number / 10;
+            //    total += figure;
+            //}
 
-            //Console.WriteLine(ones + " - " + tens + " - " + hundreds);
-
-            //sum = ones + tens + hundreds;
-
-            //Console.WriteLine(sum);
+            //Console.WriteLine("Toplam: " + total);
 
             #endregion
 

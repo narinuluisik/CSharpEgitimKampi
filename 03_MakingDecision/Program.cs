@@ -12,290 +12,302 @@ namespace _03_MakingDecision
         {
             #region If Else
 
-            //Console.Write("Please enter password: ");
+            //Console.Write("Lütfen Şifreyi Giriniz: ");
             //string password;
             //password = Console.ReadLine();
-
-            //if (password == "redline")
+            //if (password == "abcd")
             //{
-            //	Console.WriteLine("Correct");
+            //    Console.WriteLine("Şifre Doğru");
             //}
             //else
             //{
-            //	Console.WriteLine("Wrong password");
+            //    Console.WriteLine("Şİfre Yanlış!");
             //}
 
             //string capital, country;
-            //Console.Write("Enter the capital: ");
-            //capital = Console.ReadLine();
 
-            //Console.Write("Enter the country: ");
+            //Console.Write("Başkenti Giriniz: ");
+            //capital = Console.ReadLine();
+            //Console.Write("Ülkeyi Giriniz: ");
             //country = Console.ReadLine();
 
-            //if (capital == "Tokyo" & country == "Japan")
+            //if (capital == "ankara" & country == "türkiye")
             //{
-            //	Console.WriteLine("Correct");
+            //    Console.WriteLine("Veriler doğrulandı");
             //}
-
-            //		 else
+            //else
             //{
-            //	Console.WriteLine("Wrong");
+            //    Console.WriteLine("Hatalı bilgi");
             //}
 
             //int number;
-            //Console.Write("Enter the number: ");
+
+            //Console.Write("Sayıyı giriniz: ");
             //number = int.Parse(Console.ReadLine());
             //if (number == 5)
             //{
-            //	Console.WriteLine("Correct");
+            //    Console.WriteLine("Sayı doğru");
             //}
-
             //else
             //{
-            //	Console.WriteLine("Wrong");
+            //    Console.WriteLine("Sayı hatalı");
             //}
 
             //int exam1, exam2, exam3, average;
-            //string result = "Error";
+            //string result = "Hata!";
 
-            //Console.Write("Exam 1: ");
+            //Console.Write("Sınav1: ");
             //exam1 = int.Parse(Console.ReadLine());
-            //Console.Write("Exam 2: ");
+            //Console.Write("Sınav2: ");
             //exam2 = int.Parse(Console.ReadLine());
-            //Console.Write("Exam 3: ");
+            //Console.Write("Sınav3: ");
             //exam3 = int.Parse(Console.ReadLine());
 
             //average = (exam1 + exam2 + exam3) / 3;
-            //Console.WriteLine("Average of exams: " + average);
+            //Console.WriteLine("Sınavların ortalaması: " + average);
 
-            //if (average >= 0 & average < 50)
+            //if (average > 0 & average <= 50)
             //{
-            //	result = "Bad";
+            //    result = "Sonuç vasat";
             //}
-            //if (average >= 50 & average < 70)
+            //if(average > 50 & average <= 70)
             //{
-            //	result = "Normal";
+            //    result = "Sonuç orta";
             //}
-            //if (average >= 70 & average < 85)
+            //if (average > 70 & average <= 84)
             //{
-            //	result = "Good";
+            //    result = "Sonuç iyi";
             //}
-            //if (average >= 85)
+            //if (average > 84)
             //{
-            //	result = "Exellent";
+            //    result = "Sonuç çok iyi";
             //}
 
-            //Console.Write("Result: " + result);
+            //Console.WriteLine(result);
 
             //string city;
-            //Console.Write("Please enter a city: ");
+
+            //Console.Write("Lütfen Şehir Girişi Yapınız: ");
             //city = Console.ReadLine();
 
-            //if (city == "Kyoto" | city=="Hokkaido" | city=="Tokyo" | city=="Fukushima")
+            //if (city == "ankara" | city == "adana" | city == "istanbul" | city == "giresun")
             //{
-            //	Console.WriteLine("City avaible");
-            //}
-            //         else
-            //         {
-            //	Console.WriteLine("City not avaible");
-            //         }
-
-            //Console.Write("Please enter username: ");
-            //string username = Console.ReadLine();
-
-            //if (username != "admin")
-            //{
-            //	Console.WriteLine("Wrong username");
+            //    Console.WriteLine("Şehir mevcut");
             //}
             //else
             //{
-            //	Console.WriteLine("Konnichiha");
+            //    Console.WriteLine("şehir mevcut değil");
             //}
+
+            //Console.Write("Lütfen kullanıcı adınızı giriniz: ");
+            //string username = Console.ReadLine();
+            //if (username != "admin")
+            //{
+            //    Console.Write("Bu kullanıcı adı kabul edilemez");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Hoş geldiniz.");
+            //}
+
+
 
             #endregion
 
-            #region Mod Operations
+            #region Mod işlemleri
 
-            //int number;
-            //number = 32;
+            //int number = 26;
             //int result = number % 5;
             //Console.WriteLine(result);
 
-            //Console.Write("Please enter first number: ");
+            //Console.Write("Lütfen 1. sayıyı giriniz: ");
             //int number1 = int.Parse(Console.ReadLine());
 
-            //Console.Write("Please enter second number: ");
+            //Console.Write("Lütfen 2. sayıyı giriniz: ");
             //int number2 = int.Parse(Console.ReadLine());
 
             //int result = number1 % number2;
-            //Console.Write("Mod of first number: " + result);
 
-            //Console.Write("Please enter number: ");
+            //Console.Write("1. sayının 2. sayıya bölümünden kalan: " + result);
+
+            //Console.Write("Lütfen sayıyı giriniz: ");
             //int number = int.Parse(Console.ReadLine());
 
             //if (number % 2 == 0)
             //{
-            //	Console.WriteLine("This number is even");
+            //    Console.WriteLine("Sayı çifttir.");
             //}
-            //else
-            //{
-            //	Console.WriteLine("This number is odd");
-            //}
-
-            //Console.Write("Please enter your team's first letter: ");
-            //char team = char.Parse(Console.ReadLine());
-
-            //if (team == 'g' | team == 'G')
-            //{
-            //	Console.WriteLine("Galatasaray");
-            //}
-            //if (team == 'f' | team == 'F')
-            //{
-            //	Console.WriteLine("Fenerbahçe");
-            //}
-            //if (team == 'b' | team == 'B')
-            //{
-            //	Console.WriteLine("Beşiktaş");
+            //else {
+            //    Console.WriteLine("Sayı tektir");
             //}
 
             #endregion
 
-            #region Decision structures with char variables
+            #region Char değişkenleri karar yapıları
 
-            //Console.WriteLine("***** C# Training Camp Restaurant *****");
+            //char team;
+            //Console.Write("Lütfen takımınızın sembolünü giriniz: ");
+            //team = char.Parse(Console.ReadLine());
+
+            //if (team == 'g' | team == 'G')
+            //{
+            //    Console.WriteLine("Galatasaray");
+            //}
+            //if (team == 'f' | team == 'F')
+            //{
+            //    Console.WriteLine("Fenerbahçe");
+            //}
+            //if (team == 'b' | team == 'B')
+            //{
+            //    Console.WriteLine("Beşiktaş");
+            //}
+
+            #endregion
+
+            #region Örnek Uygulama Projesi
+            //Console.WriteLine("C# Eğitim Kampı Restoran");
             //Console.WriteLine();
-            //Console.WriteLine("-------------------");
-            //Console.WriteLine("1-Main Dishes");
-            //Console.WriteLine("2-Soups");
-            //Console.WriteLine("3-Pizzas");
-            //Console.WriteLine("4-Beverages");
-            //Console.WriteLine("5-Desserts");
-            //Console.WriteLine("-------------------");
+            //Console.WriteLine("---------------------------------------");
+            //Console.WriteLine("1- Ana Yemekler");
+            //Console.WriteLine("2- Çorbalar");
+            //Console.WriteLine("3- Pizzalar");
+            //Console.WriteLine("4- İçecekler");
+            //Console.WriteLine("5- Tatlılar");
+            //Console.WriteLine("---------------------------------------");
+            //Console.WriteLine();
 
             //string menuItem;
 
-            //Console.WriteLine("Please select category: ");
+            //Console.Write("Lütfen detayı görmek istediğiniz menüyü seçiniz: ");
             //menuItem = Console.ReadLine();
 
             //if (menuItem == "1")
             //{
-            //	Console.WriteLine();
-            //	Console.WriteLine("---------- Main Dishes ----------");
-            //	Console.WriteLine();
-            //	Console.WriteLine("1-Chicken with curry sauce");
-            //	Console.WriteLine("2-Fries Platter");
-            //	Console.WriteLine("3-Bean rice");
-            //	Console.WriteLine("4-Baked loaf");
-            //	Console.WriteLine("5-Eggplant moussaka");
-            //	Console.WriteLine();
-            //	Console.WriteLine("---------- Main Dishes ----------");
+            //    Console.WriteLine();
+            //    Console.WriteLine("----------Ana Yemekler----------");
+            //    Console.WriteLine();
+            //    Console.WriteLine("1- Köri Soslu Tavuk");
+            //    Console.WriteLine("2- Kızartma Tabağı");
+            //    Console.WriteLine("3- Etli Pilav");
+            //    Console.WriteLine("4- Fırında Makarna");
+            //    Console.WriteLine("5- Patlıcan Musakka");
+            //    Console.WriteLine("----------Ana Yemekler----------");
+            //    Console.WriteLine();
             //}
+
             //if (menuItem == "2")
             //{
-            //	Console.WriteLine();
-            //	Console.WriteLine("---------- Soups ----------");
-            //	Console.WriteLine();
-            //	Console.WriteLine("1-Lentil soup");
-            //	Console.WriteLine("2-Ezogelin soup");
-            //	Console.WriteLine("3-Chicken soup");
-            //	Console.WriteLine();
-            //	Console.WriteLine("---------- Soups ----------");
+            //    Console.WriteLine();
+            //    Console.WriteLine("----------Çorbalar----------");
+            //    Console.WriteLine();
+            //    Console.WriteLine("1- Mercimek Çorbası");
+            //    Console.WriteLine("2- Kremalı Tavuk Çorbası");
+            //    Console.WriteLine("----------Çorbalar----------");
+            //    Console.WriteLine();
             //}
+
             //if (menuItem == "3")
             //{
-            //	Console.WriteLine();
-            //	Console.WriteLine("---------- Pizzas ----------");
-            //	Console.WriteLine();
-            //	Console.WriteLine("1-Mediterranean");
-            //	Console.WriteLine("2-Margarita");
-            //	Console.WriteLine("3-Chicken");
-            //	Console.WriteLine();
-            //	Console.WriteLine("---------- Pizzas ----------");
+            //    Console.WriteLine();
+            //    Console.WriteLine("----------Pizzalar----------");
+            //    Console.WriteLine();
+            //    Console.WriteLine("1- Akdeniz Pizza");
+            //    Console.WriteLine("2- Margarita");
+            //    Console.WriteLine("3   k- Tavuklu Pizza");
+            //    Console.WriteLine("----------Pizzalar----------");
+            //    Console.WriteLine();
             //}
+
             //if (menuItem == "4")
             //{
-            //	Console.WriteLine();
-            //	Console.WriteLine("---------- Beverages ----------");
-            //	Console.WriteLine();
-            //	Console.WriteLine("1-Water");
-            //	Console.WriteLine("2-Coke");
-            //	Console.WriteLine("3-Ayran");
-            //	Console.WriteLine();
-            //	Console.WriteLine("---------- Beverages ----------");
+            //    Console.WriteLine();
+            //    Console.WriteLine("----------İçecekler----------");
+            //    Console.WriteLine();
+            //    Console.WriteLine("1- Kola");
+            //    Console.WriteLine("2- Ayran");
+            //    Console.WriteLine("3- Su");
+            //    Console.WriteLine("----------İçecekler----------");
+            //    Console.WriteLine();
             //}
+
             //if (menuItem == "5")
             //{
-            //	Console.WriteLine();
-            //	Console.WriteLine("---------- Desserts ----------");
-            //	Console.WriteLine();
-            //	Console.WriteLine("1-Trileche");
-            //	Console.WriteLine("2-Caramelized milk pudding");
-            //	Console.WriteLine("3-Rice pudding");
-            //	Console.WriteLine();
-            //	Console.WriteLine("---------- Desserts ----------");
+            //    Console.WriteLine();
+            //    Console.WriteLine("----------Tatlılar----------");
+            //    Console.WriteLine();
+            //    Console.WriteLine("1- Trileçe");
+            //    Console.WriteLine("2- Kazandibi");
+            //    Console.WriteLine("3- Profiterol");
+            //    Console.WriteLine("----------Tatlılar----------");
+            //    Console.WriteLine();
             //}
 
             #endregion
 
             #region Switch Case
 
-            //Console.WriteLine("Please enter a mounth");
-            //int mountNumber = int.Parse(Console.ReadLine());
+            //Console.Write("Lütfen ay girişi yapınız: ");
+            //int monthnumber = int.Parse(Console.ReadLine());
 
-            //switch (mountNumber)
+            //switch (monthnumber)
             //{
-            //	case 1: Console.WriteLine("January"); break;
-            //	case 2: Console.WriteLine("February"); break;
-            //	case 3: Console.WriteLine("March"); break;
-            //	case 4: Console.WriteLine("April"); break;
-            //	case 5: Console.WriteLine("May"); break;
-            //	case 6: Console.WriteLine("June"); break;
-            //	case 7: Console.WriteLine("July"); break;
-            //	case 8: Console.WriteLine("August"); break;
-            //	case 9: Console.WriteLine("September"); break;
-            //	case 10: Console.WriteLine("October"); break;
-            //	case 11: Console.WriteLine("November"); break;
-            //	case 12: Console.WriteLine("December"); break;
-            //	default: Console.WriteLine("Error"); break;
+            //    case 1: Console.Write("Ocak"); break;
+            //    case 2: Console.Write("Şubat"); break;
+            //    case 3: Console.Write("Mart"); break;
+            //    case 4: Console.Write("Nisan"); break;
+            //    case 5: Console.Write("Mayıs"); break;
+            //    case 6: Console.Write("Haziran"); break;
+            //    case 7: Console.Write("Temmuz"); break;
+            //    case 8: Console.Write("Ağustos"); break;
+            //    case 9: Console.Write("Eylül"); break;
+            //    case 10: Console.Write("Ekim"); break;
+            //    case 11: Console.Write("Kasım"); break;
+            //    case 12: Console.Write("Aralık"); break;
+            //    default: Console.Write("Hatalı veri girişi yaptınız"); break;
             //}
 
             #endregion
 
-            #region Switch Case Calculator
+            #region Hesap Makinesi
 
-            int number1, number2, result;
-            char symbol;
+            //int number1, number2, result;
+            //char symbol;
 
-            Console.WriteLine("Please enter first number: ");
-            number1 = int.Parse(Console.ReadLine());
+            //Console.Write("Lütfen 1. sayıyı giriniz: ");
+            //number1 = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Please enter second number: ");
-            number2 = int.Parse(Console.ReadLine());
+            //Console.Write("Lütfen 2. sayıyı giriniz: ");
+            //number2 = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Select an operation");
-            symbol = char.Parse(Console.ReadLine());
+            //Console.Write("Lütfen yapıcağınız işlemi giriniz: ");
+            //symbol = char.Parse(Console.ReadLine());
 
-            switch (symbol)
-            {
-                case '+':
-                    result = number1 + number2;
-                    Console.WriteLine("Addition: " + result);
-                    break;
+            //switch (symbol) {
 
-                case '-':
-                    result = number1 - number2;
-                    Console.WriteLine("Subtraction: " + result);
-                    break;
-                case '*':
-                    result = number1 * number2;
-                    Console.WriteLine("Multiplication: " + result);
-                    break;
-                case '/':
-                    result = number1 / number2;
-                    Console.WriteLine("Division: " + result);
-                    break;
-                default: Console.WriteLine("This operation not supported"); break;
-            }
+            //    case '+': 
+            //        result = number1 + number2;
+            //        Console.WriteLine("Toplam: " + result);
+            //        break;
+
+            //    case '-': 
+            //        result = number1 - number2;
+            //        Console.WriteLine("Fark: " + result); 
+            //        break;
+
+            //    case '*': 
+            //        result = number1 * number2;
+            //        Console.WriteLine("Çarpım: " + result); 
+            //        break;
+
+            //    case '/': 
+            //        result = number1 / number2;
+            //        Console.WriteLine("Bölüm: " + result); 
+            //        break;
+
+            //    default: Console.Write("Hatalı veri girişi."); break;
+            //}
+
+
 
             #endregion
 
